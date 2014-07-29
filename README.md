@@ -1,5 +1,5 @@
 
-## nginx
+## 18F FISMA Ready Nginx
 
 The following was written against nginx stable 1.6.0 ([tarball](http://nginx.org/download/nginx-1.6.0.tar.gz)) (released 2014-04-24, [changelog](http://nginx.org/en/CHANGES-1.6)).
 
@@ -56,3 +56,7 @@ We compile in the [SPDY](https://en.wikipedia.org/wiki/SPDY) module for nginx, i
 As of this writing, we're using nginx 1.6.0, with support for SPDY 3.1. SPDY is being used as the basis for work on [HTTP/2](http://http2.github.io/), which is still very much a draft, and not yet approaching finalization.
 
 We'll update our version and configuration of nginx to accommodate future versions of SPDY (such as 4.0), and when the day comes we'll plan to accommodate HTTP/2.
+
+### Acknowledgements 
+
+Huge thanks go to @konklone who is the primary author of this work. 
