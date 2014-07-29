@@ -59,4 +59,4 @@ We'll update our version and configuration of nginx to accommodate future versio
 
 ### Acknowledgements 
 
-Huge thanks go to @konklone who is the primary author of this work. 
+Huge thanks go to [konklone](https://github.com/konklone) who is the primary author of this work. 
