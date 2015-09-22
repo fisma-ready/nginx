@@ -5,22 +5,6 @@
 ####################################
 
 
-# HTTP Strict Transport Security: tells browsers to require https:// without first checking
-# the http:// version for a redirect. Warning: it is difficult to change your mind.
-# 
-#    max-age: length of requirement in seconds (31536000 = 1 year)
-#    includeSubdomains: force SSL for *ALL* subdomains (remove if this is not what you want)
-#    preload: indicates you want browsers to ship with HSTS preloaded for your domain.
-# 
-#    Submit your domain for preloading in browsers at: https://hstspreload.appspot.com
-
-add_header Strict-Transport-Security 'max-age=31536000';
-
-# If you can turn on HTTPS for *all* subdomains, use this version
-# and submit your domain for preloading:
-#
-# add_header Strict-Transport-Security 'max-age=31536000; includeSubDomains; preload';
-
 # Prefer certain ciphersuites, to enforce Forward Secrecy and avoid known vulnerabilities.
 #
 # Forces forward secrecy in all browsers and clients that can use TLS,
