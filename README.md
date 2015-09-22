@@ -1,7 +1,7 @@
 
 ## 18F FISMA Ready Nginx
 
-The following was written against nginx stable 1.6.1 ([tarball](http://nginx.org/download/nginx-1.6.1.tar.gz)) (released 2014-08-05, [changelog](http://nginx.org/en/CHANGES-1.6)).
+The following was written against nginx stable 1.6.2 ([tarball](http://nginx.org/download/nginx-1.6.2.tar.gz)) (released 2014-08-05, [changelog](http://nginx.org/en/CHANGES-1.6)).
 
 ### Installation notes
 
